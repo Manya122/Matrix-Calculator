@@ -5,6 +5,11 @@ import numpy as np
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def home():
+    return 'Matrix Calculator API is running 🚀'
+
+
 @app.route('/calculate', methods=['POST'])
 def calculate():
     data = request.get_json()
