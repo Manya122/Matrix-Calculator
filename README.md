@@ -17,29 +17,21 @@ A responsive, interactive matrix calculator that performs basic matrix operation
 
 ---
 
+## 🔗 Live Demo
+
+## 🔗 Live Demo
+
+Frontend: [https://matrix-calculator-omega.vercel.app/](https://matrix-calculator-omega.vercel.app/)  
+Backend API: [https://matrix-backend-68ir.onrender.com](https://matrix-backend-68ir.onrender.com)
+
+---
+
 ## 🛠️ Tech Stack
 
 | Frontend (React) | Backend (Flask) | Libraries / Tools |
 |------------------|------------------|-------------------|
 | React, JavaScript | Flask, Python     | NumPy, Flask-CORS, Git, VS Code |
 
----
-
-## 📂 Project Structure
-
-matrix-calculator/
-├── backend/
-│ ├── app.py
-│ └── requirements.txt
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ ├── .gitignore
-│ ├── package.json
-│ └── ...
-├── .gitignore
-├── LICENSE
-└── README.md
 
 
 ---
