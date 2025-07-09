@@ -102,7 +102,7 @@ export default function App() {
   const calculate = async () => {
     try {
       setError(null);
-      const response = await fetch('http://localhost:5000/calculate', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/calculate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ matrixA, matrixB, operation, scalar }),
