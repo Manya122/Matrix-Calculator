@@ -19,8 +19,6 @@ A responsive, interactive matrix calculator that performs basic matrix operation
 
 ## 🔗 Live Demo
 
-## 🔗 Live Demo
-
 Frontend: [https://matrix-calculator-omega.vercel.app/](https://matrix-calculator-omega.vercel.app/)  
 Backend API: [https://matrix-backend-68ir.onrender.com](https://matrix-backend-68ir.onrender.com)
 
